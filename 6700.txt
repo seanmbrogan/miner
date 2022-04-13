@@ -5,10 +5,11 @@ cclock=1150
 mclock=2150
 cvddc=800
 templimit=90
-color=1 ; enable color output
+powerlimit=-36
+color=1 
 watchdog=1
-pec=1 ; enable power efficiency calculator
-api=40210 ; enable API, to view statistics navigate to http://localhost:10555 in your browser
+pec=1 
+api=42010
 logfile=miner.log
 
 
