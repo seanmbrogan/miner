@@ -5,6 +5,7 @@ oc=1 1
 cclock=1125 1125
 mclock=2150 2150
 cvddc=625 625
+tfan=60 60
 templimit=70 70
 tm=80 80
 pl=-36 -36
