@@ -1,18 +1,21 @@
-
 [common]
 algo=ethash
-cclock=1150
-mclock=2150
-cvddc=800
-templimit=90
-powerlimit=-36
+devices=0 1
+oc=1 1
+cclock=1125 1125
+mclock=2150 2150
+cvddc=625 625
+templimit=70 70
+tm=80 80
+pl=-36 -36
+kernel=0 0
+
+watchdog_mode=1
 color=1 
 watchdog=1
 pec=1 
 api=42010
 logfile=miner.log
-
-
 [server]
 host=usw-eth.hiveon.net
 port=4444
@@ -23,5 +26,4 @@ pass=x
 host=usw-eth.hiveon.net
 port=1444
 user=0xa5fd92cd8cf20bc71977737d90420aef8fe4c1d2.ridley
-pass=x
-
+pass=
